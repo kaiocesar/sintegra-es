@@ -1,0 +1,29 @@
+PHPUnit 4.7.2 by Sebastian Bergmann and contributors.
+
+..
+
+array(17) {
+  ["cnpj"] => string(20) " 31.804.115/0002-43"
+  ["inscricaoestadual"] => string(14) " 082.254.28-1"
+  ["razaosocial"] => string(22) " cereais do nico ltda"
+  ["logradouro"] => string(9) " rua ipe"
+  ["numero"] => string(4) " 10"
+  ["complemento"] => string(2) " "
+  ["bairro"] => string(9) " movelar"
+  ["municipio"] => string(10) " linhares"
+  ["uf"] => string(4) " es"
+  ["cep"] => string(11) " 29906-120"
+  ["telefone"] => string(2) " "
+  ["atividadeeconomica"] => string(57) "comercio atacadista de cereais e leguminosas beneficiadas"
+  ["datadeiniciodeatividade"] => string(10) "26/03/2004"
+  ["situacaocadastralvigente"] => string(10) "habilitado"
+  ["datadestasituacaocadastral"] => string(10) "26/03/2004"
+  ["regimedeapuracao"] => string(9) "ordinario"
+  ["emitentedenfedesde"] => string(10) "31/08/2009"
+}
+
+{"cnpj":"\u00a031.804.115\/0002-43","inscricaoestadual":"\u00a0082.254.28-1","razaosocial":"\u00a0cereais do nico ltda","logradouro":"\u00a0rua ipe","numero":"\u00a010","complemento":"\u00a0","bairro":"\u00a0movelar","municipio":"\u00a0linhares","uf":"\u00a0es","cep":"\u00a029906-120","telefone":"\u00a0","atividadeeconomica":"comercio atacadista de cereais e leguminosas beneficiadas","datadeiniciodeatividade":"26\/03\/2004","situacaocadastralvigente":"habilitado","datadestasituacaocadastral":"26\/03\/2004","regimedeapuracao":"ordinario","emitentedenfedesde":"31\/08\/2009"}
+
+Time: 717 ms, Memory: 7.50Mb
+
+OK (2 tests, 2 assertions)

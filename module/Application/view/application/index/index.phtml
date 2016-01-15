@@ -1,0 +1,50 @@
+<div class="page-header">
+    <h1>Integração Sintegra Espirito Santo</h1>
+</div>
+
+
+<?php 
+    if ($flash != null)
+    {
+        if ($flash['error'] == false)
+        {
+            echo '<div role="alert" class="alert alert-success alert-dismissible"> <button aria-label="Close" data-dismiss="alert" class="close" type="button"><span aria-hidden="true">×</span></button>'.$flash['message'].'</div>';
+        }
+        else if ($flash['error'] == true)
+        {
+            echo '<div role="alert" class="alert alert-danger alert-dismissible"> <button aria-label="Close" data-dismiss="alert" class="close" type="button"><span aria-hidden="true">×</span></button>'.$flash['message'].'</div>';
+        }
+    }
+?>
+
+
+<form class="form-horizontal" method="POST" action="/">
+    <div class="form-group">
+        <label class="col-sm-1 control-label">CNPJ:</label>
+        <div class="col-sm-3">
+            <input type="text" class="form-control input-lg" name="num_cnpj" value="" />
+        </div>
+        <div class="col-sm-2">
+            <button class="btn btn-success btn-lg">Consultar</button>
+        </div>
+    </div>
+</form>
+
+<?php  
+    if ($flash != null)
+    {
+        if ($flash['error'] == false)
+        {
+            echo "<pre>";
+            echo "<strong>Json:</strong><br/>";
+            print_r(json_encode($flash['json']));
+            echo "</pre>";
+
+            echo "<pre>";
+            echo "<strong>Array:</strong><br/>";
+            print_r($flash['json']);
+            echo "</pre>";
+        }
+    }
+?>
+
